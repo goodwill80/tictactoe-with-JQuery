@@ -27,3 +27,11 @@
 .right {
   border-right: 1px solid black;
 }
+
+.ex {
+  background-color: red;
+}
+
+.oh {
+  background-color: blue;
+}
