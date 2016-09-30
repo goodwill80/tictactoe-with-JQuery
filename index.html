@@ -6,36 +6,49 @@
     <title>Tic Tac Toe</title>
     <link type="text/css" rel="stylesheet" href="/css/style.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/font-awesome-4.6.3/css/font-awesome.css">
   </head>
   <body>
 <div class="container">
+  <h1>Tic Tac Toe Game</h1>
+</br></br>
     <div id="gameboard">
 
       <div class="row">
-        <div class="square bottom right"></div>
-        <div class="square bottom right"></div>
-        <div class="square bottom"></div>
+        <div class="square bottom right sq1"></div>
+        <div class="square bottom right sq2"></div>
+        <div class="square bottom sq3"></div>
       </div>
 
       <div class="row">
-        <div class="square bottom right"></div>
-        <div class="square bottom right"></div>
-        <div class="square bottom"></div>
+        <div class="square bottom right sq4"></div>
+        <div class="square bottom right sq5"></div>
+        <div class="square bottom sq6"></div>
       </div>
 
       <div class="row">
-        <div class="square right"></div>
-        <div class="square right"></div>
-        <div class="square"></div>
+        <div class="square right sq7"></div>
+        <div class="square right sq8"></div>
+        <div class="square sq9"></div>
       </div>
 
     </div>
 </div>
 
-
-
-
-
+<div class="board">
+<div class="msg">
+  <h4 class="resultstitle">Scores</h4>
+  <div class="con">
+    <div class="score">Player 1</div>
+    <div class="score">Player 2</div>
+    <div class="score" id="play1score">0</div>
+    <div class="score" id="play2score">0</div>
+</div>
+<br>
+<button id="reset" class="btn btn-primary">Reset</button>
+<button id="continue" class="btn btn-defualt">Continue</button>
+</div>
+<div>
 
 
 

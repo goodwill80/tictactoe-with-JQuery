@@ -1,12 +1,22 @@
+body {
+  background-color: #FF8A65  !important;
+}
+
 .container {
-  margin-top: 80px;
+  margin-top: 30px;
   text-align: center;
+  border: 3px solid black;
+  padding: 10px;
+  width: 40% !important;
+  background-color: white;
 }
 
 
 #gameboard {
   width: 360px;
   margin: 0 auto;
+  font-size: 50px;
+  padding-bottom: 20px;
 }
 
 .row {
@@ -18,6 +28,7 @@
   width: 119px;
   height: 119px;
   float: left;
+  padding-top: 35px;
 }
 
 .bottom {
@@ -28,10 +39,37 @@
   border-right: 1px solid black;
 }
 
-.ex {
-  background-color: red;
+.board {
+  background-color: black;
+  width: 580px;
+  margin: 10px auto;
+  border: 1px solid white;
 }
 
-.oh {
-  background-color: blue;
+
+
+.msg {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  width: 600px;
+}
+
+.con {
+  margin: 0 auto;
+  height: 60px;
+  width: 262px;
+}
+
+.score {
+  border: 1px solid white;
+  width: 130px;
+  height: 30px;
+  margin: 0 auto;
+  float: left;
+  color: white;
+}
+
+.resultstitle {
+  color: white;
 }
