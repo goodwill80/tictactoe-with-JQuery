@@ -1,0 +1,29 @@
+.container {
+  margin-top: 80px;
+  text-align: center;
+}
+
+
+#gameboard {
+  width: 360px;
+  margin: 0 auto;
+}
+
+.row {
+  clear: both;
+  overflow: hidden;
+}
+
+.square {
+  width: 119px;
+  height: 119px;
+  float: left;
+}
+
+.bottom {
+  border-bottom: 1px solid black;
+}
+
+.right {
+  border-right: 1px solid black;
+}
