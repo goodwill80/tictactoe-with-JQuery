@@ -82,6 +82,4 @@ $('#reset').on("click", function(){
 
 
 
-
-
 });

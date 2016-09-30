@@ -9,6 +9,7 @@ body {
   padding: 10px;
   width: 40% !important;
   background-color: white;
+  min-width: 370px;
 }
 
 
@@ -17,6 +18,8 @@ body {
   margin: 0 auto;
   font-size: 50px;
   padding-bottom: 20px;
+  text-align: center;
+  padding: 2px;
 }
 
 .row {
@@ -42,11 +45,10 @@ body {
 .board {
   background-color: black;
   width: 580px;
+  min-width: 300px;
   margin: 10px auto;
   border: 1px solid white;
 }
-
-
 
 .msg {
   margin: 0 auto;
