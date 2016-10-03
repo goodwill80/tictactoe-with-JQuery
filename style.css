@@ -1,5 +1,5 @@
 body {
-  background-color: #FF8A65  !important;
+  background-image: url("background.jpg") !important;
 }
 
 .container {
@@ -8,10 +8,13 @@ body {
   border: 3px solid black;
   padding: 40px;
   width: 40% !important;
-  background-color: white;
+  background-color: yellow;
   min-width: 370px;
 }
 
+#title {
+  color: gray;
+}
 
 #gameboard {
   width: 360px;
